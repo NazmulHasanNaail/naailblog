@@ -1,0 +1,25 @@
+.naailblog-btn{
+  display: inline-block;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  text-decoration: none;
+  color: #fff;
+  background-color: var(--naailblog-primary-color);
+  &:hover{
+    color: #fff;
+    background-color: var(--naailblog-secondary-color);
+  }
+}
+//link button
+.naailblog-link-btn{
+  display: inline-block;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  color: var(--naailblog-primary-color);
+  &:hover{
+    color: var(--naailblog-secondary-color);
+  }
+}

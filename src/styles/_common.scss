@@ -1,0 +1,41 @@
+body{
+  //font-family: var(--naailblog-base-ff);
+  font-size: var(--naailblog-base-fs);
+  font-weight: var(--naailblog-base-fw);
+  line-height: var(--naailblog-base-lh);
+  color: var(--naailblog-text-color);
+}
+h1,h2,h3,h4,h5,h6{
+  //font-family: var(--naailblog-h-ff);
+  font-weight: var(--naailblog-h-fw);
+  line-height: var(--naailblog-h-lh);
+  color: var(--naailblog-heading-color);
+  a:not(:hover){
+    color: var(--naailblog-heading-color);
+  }
+}
+h1{
+  font-size: var(--naailblog-h1-fs);
+}
+h2{
+  font-size: var(--naailblog-h2-fs);
+}
+h3{
+  font-size: var(--naailblog-h3-fs);
+}
+h4{
+  font-size: var(--naailblog-h4-fs);
+}
+h5{
+  font-size: var(--naailblog-h5-fs);
+}
+h6{
+  font-size: var(--naailblog-h6-fs);
+}
+a{
+  color: var(--naailblog-text-color);
+  text-decoration: underline;
+  &:hover{
+    color: var(--naailblog-secondary-color);
+  }
+}
