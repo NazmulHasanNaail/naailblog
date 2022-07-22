@@ -8,4 +8,5 @@ export const POSTS_PER_PAGE = constants.POSTS_PER_PAGE;
 export const WP_SITE_TITLE = constants.SITE_TITLE;
 export const WP_SITE_DESCRIPTION = constants.SITE_DESCRIPTION;
 export const WP_SITE_URL = constants.SITE_URL;
+export const WP_SITE_LOGO = constants.SITE_LOGO;
 export const WP_VERSION = constants.WP_VERSION;

@@ -70,6 +70,10 @@ a:hover {
   color: var(--naailblog-secondary-color);
 }
 
+img {
+  max-width: 100%;
+}
+
 .naailblog-btn {
   display: inline-block;
   border: none;
@@ -119,6 +123,12 @@ a:hover {
   padding: 10px;
   font-weight: 500;
   text-decoration: none;
+}
+
+.post {
+  border: 1px solid var(--naailblog-boreder-color);
+  padding: 0px 20px;
+  margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=index.css.map*/

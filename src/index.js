@@ -22,7 +22,7 @@ ReactDOM.render(
         <div className='content-wrap'>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-md-8'>
+                    <div className='col-md-12'>
                         <div className="primary">
                             <Routes>
                                 <Route path="/" element={<FrontPage />} />
@@ -31,9 +31,6 @@ ReactDOM.render(
                                 <Route path="/" element={<ArchivePage />} />
                             </Routes>
                         </div>
-                    </div>
-                    <div className='col-md-4'>
-                        <Sidebar />
                     </div>
                 </div>
             </div>
