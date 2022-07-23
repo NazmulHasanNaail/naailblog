@@ -27,6 +27,7 @@ body {
   font-weight: var(--naailblog-base-fw);
   line-height: var(--naailblog-base-lh);
   color: var(--naailblog-text-color);
+  background-color: #f9f9f9;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -72,6 +73,11 @@ a:hover {
 
 img {
   max-width: 100%;
+  transition: 0.3s;
+}
+
+.fs-small {
+  font-size: 14px;
 }
 
 .naailblog-btn {
@@ -127,8 +133,54 @@ img {
 
 .post {
   border: 1px solid var(--naailblog-boreder-color);
+  background-color: #fff;
+  box-shadow: 0px 2px 6px 0px rgba(0, 1, 1, 0.03);
   padding: 0px 20px;
   margin-bottom: 20px;
+  overflow: hidden;
+}
+.post .thumbnaail {
+  margin-left: -20px;
+  margin-right: -20px;
+  overflow: hidden;
+}
+.post .post-meta {
+  margin: 20px 0;
+}
+.post .post-meta * {
+  vertical-align: middle;
+}
+.post .calendar-icon {
+  display: inline-block;
+  margin-right: 10px;
+  line-height: 1;
+}
+.post .calendar-icon svg {
+  fill: var(--naailblog-primary-color);
+}
+.post .post-title {
+  margin-bottom: 20px;
+}
+.post:hover .thumbnaail img {
+  transform: scale(1.1);
+}
+
+.naailblog-pagination {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px auto;
+}
+.naailblog-pagination .pagination-item {
+  padding: 10px 15px;
+  border: 1px solid var(--naailblog-boreder-color);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.naailblog-pagination .pagination-item:hover, .naailblog-pagination .pagination-item.active {
+  background-color: var(--naailblog-primary-color);
+  color: #fff;
 }
 
 /*# sourceMappingURL=index.css.map*/

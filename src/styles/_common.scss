@@ -4,6 +4,7 @@ body{
   font-weight: var(--naailblog-base-fw);
   line-height: var(--naailblog-base-lh);
   color: var(--naailblog-text-color);
+  background-color: #f9f9f9;
 }
 h1,h2,h3,h4,h5,h6{
   //font-family: var(--naailblog-h-ff);
@@ -42,4 +43,8 @@ a{
 
 img{
   max-width: 100%;
+  transition: 0.3s;
+}
+.fs-small{
+  font-size: 14px;
 }

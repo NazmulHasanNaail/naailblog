@@ -1,0 +1,18 @@
+.naailblog-pagination{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px auto;
+  .pagination-item{
+    padding: 10px 15px;
+    border: 1px solid var(--naailblog-boreder-color);
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover,
+    &.active{
+      background-color: var(--naailblog-primary-color);
+      color: #fff;
+    }
+  }
+}

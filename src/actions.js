@@ -20,3 +20,14 @@ export  async  function fetchPostList(currentPage){
     return response.json();
 }
 
+//action for a post
+export  async  function fetchPost(postId){
+    const  response = await  fetch(WP_SITE_URL+WP_API+'posts/'+postId);
+    return response.json();
+}
+
+//action for retrieving noOfPages for posts
+export  async  function noOfPagesForPost(){
+    const  response = await  fetch(WP_SITE_URL+WP_API+'posts');
+    return response.headers.get('x-wp-totalpages');
+}
